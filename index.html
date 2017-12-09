@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> 
-            SpaceX Homepage 
-        </title>
+        <title>SpaceX Homepage</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body>
-        <a href="index.html"> Homepage </a>  <br/>
-        <a href="about.html"> About SpaceX </a>  <br/>  
-        <a href="mars.html"> Mars 2030 </a>  <br/>
-        <a href="preLaunches.html"> Previous launches </a>  <br/>
-        <a href="upLaunches.html"> Upcoming Launches </a>  <br/>
-        <a href="team.html"> SpaceX Team </a>  <br/>
-        <a href="info.html"> More information </a>  <br/>
+    <body class="mainPage">
+        
+        
+        <!--Video may need to be edited as at the start there are two SpaceX logos-->
+        <video poster="assets/images/videoPoster.jpg" autoplay="true" loop>
+            <source src="assets/video/mainBg.webm" type="video/webm">
+        </video>
+        
+        <img class="overlay" src="assets/images/overlay.jpg">
+        <img class="mainLogo" src="assets/images/logoBig.png">
+        <img class="navBarBg" src="assets/images/navBarBg.png">
+        
+        <div class="nav">
+            <div class="navSmall"><a href="about.html"> About SpaceX </a></div>
+            <div class="navSmall"><a href="mars.html"> Mars 2030 </a></div>
+            <div class="navSmall"><a href="preLaunches.html"> Previous launches </a></div>
+            <div class="navSmall"><a href="upLaunches.html"> Upcoming Launches </a></div>
+            <div class="navSmall"><a href="team.html"> SpaceX Team </a></div>
+            <div class="navSmall"><a href="info.html"> More information </a></div>
+        </div>
     </body>
 </html>
