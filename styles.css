@@ -1,10 +1,10 @@
 body{
     background-color: #003d65;
+    margin: 0;
+    padding 0;
 }
 
 .mainPage{
-    margin: 0;
-    padding 0;
     overflow: hidden; /*Want mage page to be a single screen and not scrollable*/
 }
 
@@ -34,13 +34,14 @@ video {
 }
 
 .center{
-    position: absolute;
+    position:relative;
     width: 60%;
     height: 20%;
-    top:15%;
     left:50%;
-    transform: translate(-50%,-50%);
-    background-color:darkslateblue; /*Using a bg color to see the size of div*/
+    transform: translate(-50%);
+    background-color:#3a405e; /*Using a bg color to see the size of div*/
+    display: inline-block;
+    
 }
 
 .nav{
@@ -51,17 +52,18 @@ video {
     transform: translate(-50%,-50%);
     bottom: 0%;
     max-height: 10%;
+    min-width: 700px;
 }
 
 .navSmall{
     position: relative;
     display: inline-block;
     width: 13%;
-    left: 12.5%;
-    min-width: 50px;
-    font-size: 2.5vh;
+    min-width: 100px;
+    font-size: 22px;;
     text-align: center;
     max-height: 5px;
+    left: 9%
     
 }
 
@@ -73,11 +75,13 @@ video {
 }
 
 .navBarBg{
-    position: absolute;
+    position: fixed;
     z-index: -5;
     width: 100%;
     bottom: -50px;
     min-height: 140px;
+    min-width: 750px;
+
 }
 
 .navBarBgTop{
@@ -93,5 +97,46 @@ video {
     color: whitesmoke;
     text-align: center;
     font-family: monospace;
-    font-size: 19px;
+    font-size: 21px;    
+}
+
+.cornerNav img,h1{
+    position: fixed;
+    width: 300px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.cornerNav h1{
+    top: 85px;
+    left: -65px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.bg1{
+    background-image: url(assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    margin-bottom: 140px;
+}
+
+.title{
+    position: relative;
+    width: 60%;
+    height: 20%;
+    left:50%;
+    transform: translate(-50%);
+    padding-bottom: 200px;
+}
+
+.title h1{
+    width: 100%;
+    font-family: monospace;
+    font-size: 70px;
+    text-shadow: 
+        0px 4px 3px rgba(0,0,0,0.4),
+        0px 8px 13px rgba(0,0,0,0.1),
+        0px 18px 23px rgba(0,0,0,0.1);
 }
