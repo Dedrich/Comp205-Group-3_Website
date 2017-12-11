@@ -140,3 +140,39 @@ video {
         0px 8px 13px rgba(0,0,0,0.1),
         0px 18px 23px rgba(0,0,0,0.1);
 }
+.bg2
+{
+    background-image:url(https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2017/07/mars-2030-5-e1501141142169.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    margin-bottom: 150px;
+}
+.text-block2
+{
+    color:black;
+    text-align: center;
+    font-family:monospace;
+    font-size: 25px; 
+}
+.center1
+{
+    position:relative;
+    width: 60%;
+    height: 20%;
+    left:50%;
+    transform: translate(-50%);
+    
+    display: inline-block
+}
+.center2
+{
+    position:relative;
+    width:60%;
+    height:20%;
+    left:50%;
+    transform:translate(-50%);
+    background-color:burlywood;
+    color:black;
+    display:inline-block;
+}
