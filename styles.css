@@ -142,7 +142,8 @@ video {
 }
 .bg2
 {
-    background-image:url(https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2017/07/mars-2030-5-e1501141142169.jpg);
+    background-image:url(./assets/images/mars2030Title.png);
+    height:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
