@@ -53,6 +53,7 @@ video {
     bottom: 0%;
     max-height: 10%;
     min-width: 700px;
+
 }
 
 .navSmall{
@@ -182,3 +183,14 @@ video {
     color:black;
     display:inline-block;
 }
+
+.subtitle
+{
+    font-size: 35px;   
+}
+
+.subsubtitle
+{
+    font-size: 25px;
+}
+
