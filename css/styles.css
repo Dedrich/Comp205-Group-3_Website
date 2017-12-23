@@ -71,8 +71,10 @@ video {
 .navSmall a{
     color: whitesmoke;
     text-decoration: none;
-    font-family: fantasy;
+    font-family: 'Bungee', cursive;
     text-align: center;
+    text-shadow: 4px 4px 4px #000;
+    line-height: 20px;
 }
 
 .navBarBg{
@@ -143,7 +145,7 @@ video {
 }
 .bg2
 {
-    background-image:url(./assets/images/mars2030Title.png);
+    background-image:url(/assets/images/mars2030Title.png);
     height:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -193,4 +195,5 @@ video {
 {
     font-size: 25px;
 }
+
 
