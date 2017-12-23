@@ -1,11 +1,10 @@
-body{
-    background-color: #003d65;
+*{
     margin: 0;
     padding 0;
 }
 
 .mainPage{
-    overflow: hidden; /*Want mage page to be a single screen and not scrollable*/
+    overflow: hidden; /*Want main page to be a single screen and not scrollable*/
 }
 
 video {
@@ -71,8 +70,10 @@ video {
 .navSmall a{
     color: whitesmoke;
     text-decoration: none;
-    font-family: fantasy;
+    font-family: 'Bungee', cursive;
     text-align: center;
+    text-shadow: 4px 4px 4px #000;
+    line-height: 20px;
 }
 
 .navBarBg{
@@ -121,6 +122,7 @@ video {
     background-attachment: fixed;
     background-size: 100% auto;
     margin-bottom: 140px;
+    background-color: #003d65;
 }
 
 .title{
@@ -143,12 +145,13 @@ video {
 }
 .bg2
 {
-    background-image:url(./assets/images/mars2030Title.png);
+    background-image:url("/assets/images/mars2030Title.png");
     height:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
     margin-bottom: 150px;
+    background-color: #003d65;
 }
 .text-block2
 {
@@ -193,4 +196,5 @@ video {
 {
     font-size: 25px;
 }
+
 

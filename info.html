@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> 
-            More Information 
-        </title>
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/menuStyle.css">
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+        <!--Scripts-->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+        <script src="js/menuScript.js"></script>
+        <title>More Information</title>
         <link href="styles.css" type="text/css" rel="stylesheet"/>
     </head>
 
     <body>
-       <div class="cornerNav"> <! Home>
-            <a href="index.html">
-                <img src="assets/images/logoSmall.png">
-            </a>
-            <h1>Home</h1>
-        </div>
+    <!--Sidebar Menu-->
+        <button id="openMe" class="toggle_menu opacity_one"><i class="fa fa-bars toggle_menu opacity_one"></i></button>
+        <div class="sidebar_menu hide_menu">
+            <!--Close Button-->
+            <button class="fa-times"><i class="fa fa-times"></i></button>
 
-        <div class="nav"> 
-            <img class="navBarBg" src="assets/images/navBarBg.png">
-            <div class="navSmall"><a href="about.html"> About SpaceX </a></div>
-            <div class="navSmall"><a href="mars.html"> Mars 2030 </a></div>
-            <div class="navSmall"><a href="preLaunches.html"> Previous launches </a></div>
-            <div class="navSmall"><a href="upLaunches.html"> Upcoming Launches </a></div>
-            <div class="navSmall"><a href="team.html"> SpaceX Team </a></div>
-            <div class="navSmall"><a href="info.html"> More information </a></div>
+            <div class="menuImg">
+                <a href="index.html">
+                    <img src="assets/images/logoSmall.png">
+                </a>
+            </div>
+            <ul class="navSmall">
+                <li><a href="about.html"> About SpaceX </a></li>
+                <li><a href="mars.html"> Mars 2030 </a></li>
+                <li><a href="preLaunches.html"> Previous launches </a></li>
+                <li><a href="upLaunches.html"> Upcoming Launches </a></li>
+                <li><a href="team.html"> SpaceX Team </a></li>
+                <li><a href="info.html"> More information </a></li>
+            </ul>
         </div>
+    <!--End of Sidebar Menu-->  
     </body>
 </html>
