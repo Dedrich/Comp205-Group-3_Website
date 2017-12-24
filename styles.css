@@ -194,3 +194,27 @@ video {
     font-size: 25px;
 }
 
+.upArrow
+{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    left: 49%;
+    bottom: 1%;
+    display: none;
+}
+
+.downArrow
+{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    left: 49%;
+    
+}

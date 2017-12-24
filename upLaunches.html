@@ -110,9 +110,10 @@
         
         
         <!--information found on https://spaceflightnow.com/launch-schedule/ -->
-        <div class="nav" id="nav"> 
+        
+        <div class="nav" id="navUP"> 
             <img class="navBarBg" src="assets/images/navBarBg.png">
-            <button onclick="hide()"> Lower </button>
+            <img src="assets/images/Down%20Arrow.png" onclick="hideUP()" class="downArrow">
             <div class="navSmall"><a href="about.html"> About SpaceX </a></div>
             <div class="navSmall"><a href="mars.html"> Mars 2030 </a></div>
             <div class="navSmall"><a href="preLaunches.html"> Previous launches </a></div>
@@ -120,6 +121,8 @@
             <div class="navSmall"><a href="team.html"> SpaceX Team </a></div>
             <div class="navSmall"><a href="info.html"> More information </a></div>
         </div> 
+        
+        <img src="assets/images/Up%20Arrow.png" onclick="showUP()" class="upArrow" id="navShowUP">
         <script src="scripts.js"></script>
     </body>
 </html>
