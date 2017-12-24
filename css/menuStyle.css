@@ -75,6 +75,7 @@
 .opacity_one{
     opacity: 1;
     transition: all 0.5s ease-in-out;
+    z-index: 1000000000000;
 }
 
 button{

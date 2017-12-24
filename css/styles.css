@@ -213,6 +213,7 @@ video {
     font-family: 'Bungee', cursive;
     padding-top: 3%;
     padding-bottom: 30%;
+    z-index: -5;
 }
 
 .aboutTitle h1{
@@ -231,11 +232,17 @@ video {
 .aboutCenter{
     position:relative;
     width: 60%;
-    height: 10%;
+    height: auto;
     left:50%;
     transform: translate(-50%);
-    background-color: rgba(12, 27, 79, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     display: inline-block;
+    z-index: -5;
+    padding: 3%;
+    border: solid 3px;
+    border-radius: 15%;
+    border-color: rgba(0, 0, 0, 0);
+    line-height: 1.5;
 }
 
 @media only screen and (max-width: 650px) {
