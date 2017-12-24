@@ -38,9 +38,8 @@ video {
     height: 20%;
     left:50%;
     transform: translate(-50%);
-    background-color:#3a405e; /*Using a bg color to see the size of div*/
+    background-color: rgba(33, 61, 160, 0.3);
     display: inline-block;
-    
 }
 
 .nav{
@@ -117,12 +116,13 @@ video {
 }
 
 .bg1{
-    background-image: url(assets/images/bg1.jpg);
+    background-image: url(../assets/images/bg1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% auto;
+    background-size: cover;
     margin-bottom: 140px;
     background-color: #003d65;
+    height: 2048px;
 }
 
 .title{
@@ -145,7 +145,7 @@ video {
 }
 .bg2
 {
-    background-image:url("/assets/images/mars2030Title.png");
+    background-image:url("../assets/images/mars2030Title.png");
     height:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -197,4 +197,47 @@ video {
     font-size: 25px;
 }
 
+.aboutText{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 1.3em;
+    color: white;
+}
 
+.aboutTitle{
+    position: relative;
+    width: 30%;
+    height: 8%;
+    left:50%;
+    transform: translate(-50%);
+    font-family: 'Bungee', cursive;
+    padding-top: 3%;
+    padding-bottom: 30%;
+}
+
+.aboutTitle h1{
+    font-size: 3em;
+    width: 100%;
+    border-bottom: solid 3px;
+}
+
+.aboutImg1 img{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: -100;
+}
+
+.aboutCenter{
+    position:relative;
+    width: 60%;
+    height: 10%;
+    left:50%;
+    transform: translate(-50%);
+    background-color: rgba(12, 27, 79, 0.6);
+    display: inline-block;
+}
+
+@media only screen and (max-width: 650px) {
+    
+}

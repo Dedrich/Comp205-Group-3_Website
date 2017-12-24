@@ -10,7 +10,7 @@
     padding: 15px 20px 15px 15px;
     color: white;
     cursor: pointer;
-    z-index: 1000000;
+    z-index: 1000000000000;
     font-size: 50px;
     opacity: 0;
 }
@@ -59,6 +59,7 @@
     border-bottom: solid 1px;
     text-align: left;
     margin-right: 10%;
+    outline: 0;
     transition: all 0.3s ease-in-out;
 }
 
@@ -80,4 +81,17 @@ button{
     padding: 0;
     border: none;
     background: none;
+    outline: 0;
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none
+}
+
+@media only screen and (max-width: 650px) {
+    .toggle_menu{
+        font-size: 20px;
+    }
 }
