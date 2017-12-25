@@ -116,7 +116,7 @@ video {
 }
 
 .bg1{
-    background-image: url(../assets/images/bg1.jpg);
+    background-image: url(../assets/images/about/bg1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -200,8 +200,9 @@ video {
 .aboutText{
     font-family: 'Open Sans', sans-serif;
     text-align: left;
-    font-size: 1.3em;
+    font-size: 1.7em;
     color: white;
+    z-index: 5000;
 }
 
 .aboutTitle{
@@ -212,7 +213,6 @@ video {
     transform: translate(-50%);
     font-family: 'Bungee', cursive;
     padding-top: 3%;
-    padding-bottom: 30%;
     z-index: -5;
 }
 
@@ -237,7 +237,7 @@ video {
     transform: translate(-50%);
     background-color: rgba(0, 0, 0, 0.6);
     display: inline-block;
-    z-index: -5;
+    z-index: -1;
     padding: 3%;
     border: solid 3px;
     border-radius: 15%;
@@ -245,6 +245,38 @@ video {
     line-height: 1.5;
 }
 
+.muskImg img{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,45%);
+}
+
+.marT5{
+    margin-top: 5%;
+}
+
+.marT25{
+    margin-top: 25%;
+}
+
+.marB30{
+    padding-bottom: 30%;
+}
+
+.spaceXHq img{
+    width: 50%;
+    height: auto;
+    border-radius: 15%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 3%;
+}
+
+/*Phone Screens*/
 @media only screen and (max-width: 650px) {
     
 }
