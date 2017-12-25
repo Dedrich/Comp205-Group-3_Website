@@ -259,7 +259,7 @@ video {
 }
 
 .marT25{
-    margin-top: 25%;
+    margin-top: 42%;
 }
 
 .marB30{
@@ -275,6 +275,25 @@ video {
     transform: translate(-50%);
     margin-top: 3%;
 }
+
+.aboutSubTitle{
+    position: relative;
+    width: 50%;
+    height: 6%;
+    left:50%;
+    transform: translate(-50%);
+    font-family: 'Bungee', cursive;
+    padding-top: 3%;
+    z-index: -5;
+}
+
+.aboutSubTitle h1{
+    font-size: 3em;
+    width: 100%;
+    border-bottom: solid 3px;
+    line-height: 100%
+}
+
 
 /*Phone Screens*/
 @media only screen and (max-width: 650px) {
