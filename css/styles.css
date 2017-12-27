@@ -259,7 +259,7 @@ video {
 }
 
 .marT25{
-    margin-top: 42%;
+    margin-top: 37.5%;
 }
 
 .marB30{
@@ -273,7 +273,6 @@ video {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    margin-top: 3%;
 }
 
 .aboutSubTitle{
@@ -294,6 +293,56 @@ video {
     line-height: 100%
 }
 
+.falcon9 img{
+    position: absolute;
+    left: 15%;
+    width: 5%;
+    height: auto;
+    margin-top: 5%;
+    transform: translate(0,-7%);
+    z-index: -5;
+}
+
+.falcon9R img{
+    left: 82%
+}
+
+.rocketAdj{
+    left: 51%;
+    width: 55%
+}
+
+.engineAdj{
+    margin-top: 1%;
+    position: absolute;
+    width: 25%;
+    left: 65%;
+}
+
+.merlin img{
+    position: absolute;
+    width: 25%;
+    height: auto;
+    left: 22%;
+    margin-top: 8%;
+    border-radius: 50%;
+}
+
+.bodyFull{
+    height: 100%;
+    min-height: 100%;
+}
+
+/*-----------footer-----------*/
+
+#footer{
+    position: absolute;
+    top: 100%;
+}
+
+.fa-facebook-f{
+    font-size: 4em; 
+}
 
 /*Phone Screens*/
 @media only screen and (max-width: 650px) {
