@@ -101,19 +101,6 @@ video {
     font-size: 21px;    
 }
 
-.cornerNav img,h1{
-    position: fixed;
-    width: 300px;
-    text-align: center;
-    color: whitesmoke;
-}
-
-.cornerNav h1{
-    top: 85px;
-    left: -65px;
-    font-size: 25px;
-    font-family: monospace;
-}
 
 .bg1{
     background-image: url(../assets/images/about/bg1.jpg);
@@ -205,9 +192,17 @@ video {
     z-index: 5000;
 }
 
+.aboutText a{
+    color: brown;
+}
+
+.aboutText a:hover{
+    text-shadow: 1px 0px 20px #0099ff;
+}
+
 .aboutTitle{
     position: relative;
-    width: 30%;
+    width: 35%;
     height: 8%;
     left:50%;
     transform: translate(-50%);
@@ -220,6 +215,34 @@ video {
     font-size: 3em;
     width: 100%;
     border-bottom: solid 3px;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.aboutSubTitle{
+    position: relative;
+    width: 55%;
+    left:50%;
+    transform: translate(-50%);
+    font-family: 'Bungee', cursive;
+    padding-top: 3%;
+    z-index: -5;
+}
+
+.aboutSubTitle h1{
+    font-size: 1.5em;
+    width: 100%;
+    border-bottom: solid 3px;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.spaceXHqTitleFix{
+    font-size: 2em;
+    width: 40%;
+    margin-bottom: 1%
 }
 
 .aboutImg1 img{
@@ -237,33 +260,31 @@ video {
     transform: translate(-50%);
     background-color: rgba(0, 0, 0, 0.6);
     display: inline-block;
-    z-index: -1;
     padding: 3%;
     border: solid 3px;
-    border-radius: 15%;
+    border-radius: 5%;
     border-color: rgba(0, 0, 0, 0);
     line-height: 1.5;
 }
 
 .muskImg img{
-    width: 25%;
-    height: auto;
     border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,45%);
+    display: block;
+    margin: auto;
+    width: 35%;
+    margin-top: 1%;
 }
 
-.marT5{
+.marT{
+    margin-top: 38%;
+}
+
+.marT1{
     margin-top: 5%;
 }
 
-.marT25{
-    margin-top: 37.5%;
-}
-
-.marB30{
-    padding-bottom: 30%;
+.marB{
+    padding-bottom: 23%;
 }
 
 .spaceXHq img{
@@ -275,70 +296,118 @@ video {
     transform: translate(-50%);
 }
 
-.aboutSubTitle{
-    position: relative;
-    width: 50%;
-    height: 6%;
-    left:50%;
-    transform: translate(-50%);
-    font-family: 'Bungee', cursive;
-    padding-top: 3%;
-    z-index: -5;
-}
-
-.aboutSubTitle h1{
-    font-size: 3em;
-    width: 100%;
-    border-bottom: solid 3px;
-    line-height: 100%
-}
 
 .falcon9 img{
-    position: absolute;
-    left: 15%;
-    width: 5%;
-    height: auto;
-    margin-top: 5%;
-    transform: translate(0,-7%);
-    z-index: -5;
-}
-
-.falcon9R img{
-    left: 82%
-}
-
-.rocketAdj{
-    left: 51%;
-    width: 55%
-}
-
-.engineAdj{
-    margin-top: 1%;
-    position: absolute;
-    width: 25%;
-    left: 65%;
-}
-
-.merlin img{
-    position: absolute;
-    width: 25%;
-    height: auto;
-    left: 22%;
-    margin-top: 8%;
+    display: block;
+    margin: auto;
+    width: 100%;
     border-radius: 50%;
 }
 
+.rocketAdj{
+    left: 40%;
+    width: 25%;
+    transform: translate(-50%,10%);
+}
+
+.aboutMarB{
+    margin-bottom: 31%;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.aboutVideo{
+    margin-bottom: 2%;
+    margin-top: -6%;
+    width: 50%;
+}
+
+.launchSequence img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.pageNav{
+    text-align: center;
+    position:relative;
+    width: 20%;
+    height: auto;
+    left:50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 1%;
+}
+
+.pageNav a{
+    width: 50%;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    transition: all 0.3s ease-in-out;
+    font-size: 1.3em;
+}
+
+.pageNav nav a:hover{
+    transition: all 0.3s ease-in-out;
+    text-shadow: 4px 4px 4px #000;
+    color: royalblue;
+}
+
+.pageNav h1{
+    font-family: 'Bungee', cursive;
+    color: white;
+    font-size: 2.5em;
+}
 /*-----------footer-----------*/
 
 #footer{
     position: absolute;
-    top: 100%;
+    right: 0;
 }
 
-.fa-facebook-f{
+.fa-facebook-square{
     font-size: 4em; 
 }
 
+.fa-twitter-square{
+    font-size: 4em;
+}
+
+.fa-youtube{
+    font-size: 4em;
+    
+}
+
+.footerLinks{
+    margin-top: 1.5%;   
+}
+
+.footerLinks a{
+    color: black;
+}
+
+.footerLinks a:hover{
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.footerTitle h2{
+    font-family: 'Bungee', cursive;
+    font-size: 2.4em;    
+}
 /*Phone Screens*/
 @media only screen and (max-width: 650px) {
     

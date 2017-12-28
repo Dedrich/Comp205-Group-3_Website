@@ -25,6 +25,8 @@
     background-color: rgba(17,17,17,0.9);
     opacity: 0.9;
     transition: all 0.3s ease-in-out;
+        z-index: 1000000000000;
+
 }
 
 .fa-times{
@@ -63,9 +65,21 @@
     transition: all 0.3s ease-in-out;
 }
 
+.navSmall a:hover{
+    text-shadow: 1px 0px 20px #0099ff;
+    margin-left: 5%;
+}
+
 .menuImg img{
     width: 150%;
     margin-top: 10%;
+    opacity: .5;
+    transition: all 0.5s ease-in-out;
+}
+
+.menuImg img:hover{
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
 }
 
 .hide_menu{
