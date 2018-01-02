@@ -1,0 +1,75 @@
+.bgimage {
+    background-image:url("../pics/62826018-stars-wallpapers.jpg");
+    background-size:100%;
+    
+}
+.center3
+{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
+.background
+{
+    font-family:cursive;
+    font-weight:bold;
+}
+.heading
+{
+    text-align: center;
+    color: white;
+}
+.text
+{
+    margin-top:100px;
+    color:white;
+    font-size:30px;
+    text-align: center;
+    LINE-HEIGHT:40px;
+    display: inline-block;
+    width:49%;
+    position:relative;
+    
+}
+
+.background1
+{
+    
+    font-family:cursive;
+    position:relative;
+    font-weight:bold;
+    
+}
+.text1{
+    margin-top:100px;
+    color:white;
+    font-size:30px;
+    text-align: center;
+    margin-left: 20px;
+    LINE-HEIGHT:40px;
+    position:absolute;
+    display: inline-block;
+    width:49%;
+    position: absolute;
+}
+.heading1
+{
+    
+    color:white;
+    text-align:center;
+    font-weight: bold;
+    font-style: italic;
+    font-size:60px;
+}
+.video1
+{
+    margin-top:150px;
+ 
+}
+.text3
+{
+    color:white;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}

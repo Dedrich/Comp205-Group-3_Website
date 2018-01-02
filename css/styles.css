@@ -159,8 +159,7 @@ video {
     height: 20%;
     left:50%;
     transform: translate(-50%);
-    
-    display: inline-block
+    display: inline-block;
 }
 .center2
 {
