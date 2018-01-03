@@ -1,0 +1,96 @@
+.marsbackgroundimage
+{
+    background-image: url("../mars/bfr-payload.jpg");
+    background-size:100%;
+    background-attachment: fixed;
+}
+.marstext
+{
+    
+    color:black;
+    text-align: center;
+    margin-top:800px;
+    font-weight:bold;
+    font-style:italic;
+    font-size: 30px;
+}
+.marsheading
+{
+    margin-top:100px;
+    color:white;
+    font-size:40px;
+    text-align:center;
+}
+.marsbackground
+{
+    width:1000px;
+    background-color:lightsteelblue;
+}
+.videobackground
+{
+    background-color:black;
+}
+.marstext1
+{
+    color:black;
+    text-align: center;
+   
+    font-weight:bold;
+   
+    font-size: 30px;
+}
+.marsheading1
+{
+    background-color:white;
+    width:200px;
+    font-size:40px;
+    text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  
+   
+    position:absolute;
+    
+    
+    
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 49%;
+  
+    position:relative;
+    
+    
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.superheading
+{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    font-family: fantasy;
+}

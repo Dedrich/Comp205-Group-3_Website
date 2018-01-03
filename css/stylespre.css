@@ -1,7 +1,7 @@
 .bgimage {
     background-image:url("../pics/62826018-stars-wallpapers.jpg");
     background-size:100%;
-    
+    background-attachment: fixed;
 }
 .center3
 {
