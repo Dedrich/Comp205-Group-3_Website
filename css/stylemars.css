@@ -6,7 +6,7 @@
 }
 .marstext
 {
-    
+    padding:30px 10px;
     color:black;
     text-align: center;
     margin-top:800px;
@@ -41,9 +41,11 @@
 }
 .marsheading1
 {
+    
+    margin-top:60px;
     background-color:white;
-    width:200px;
-    font-size:40px;
+    width:400px;
+    font-size:80px;
     text-align: center;
 }
 .row {
@@ -60,7 +62,7 @@
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 49%;
+
   
     position:relative;
     
@@ -69,7 +71,7 @@
 
 .column img {
   margin-top: 8px;
-  vertical-align: middle;
+  vertical-align: left;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -89,8 +91,27 @@
 }
 .superheading
 {
+    padding-top: 30px;
     color: white;
     font-style: italic;
-    font-size: 50px;
+    font-size: 70px;
     font-family: fantasy;
+}
+.heading1
+{
+    
+    color:white;
+    background-color:black;
+    width:500px;
+}
+.column1
+{
+    padding-left:100px;
+    flex: 100%;
+    max-width: 100%;
+  
+}
+.padding
+{
+    padding: 0px 10px 50px 10px;
 }
