@@ -40,6 +40,11 @@ video {
     transform: translate(-50%);
     background-color: rgba(33, 61, 160, 0.3);
     display: inline-block;
+    margin: 1%;
+    padding 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 25%;
 }
 
 .nav{
@@ -129,6 +134,7 @@ video {
         0px 4px 3px rgba(0,0,0,0.4),
         0px 8px 13px rgba(0,0,0,0.1),
         0px 18px 23px rgba(0,0,0,0.1);
+    text-align: center;
 }
 .bg2
 {
@@ -410,4 +416,70 @@ video {
 /*Phone Screens*/
 @media only screen and (max-width: 650px) {
     
+}
+
+.teamMember {
+    border-radius: 500%;
+    height: 10%;
+    width: 10%;
+}
+
+.bgTeam{
+    background-image: url(../assets/images/Team/SpaceXTeamBG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 140px;
+    background-color: #003d65;
+    height: 2048px;
+}
+
+.centerTeam a {
+    color:whitesmoke;
+    font-family: monospace;
+}
+
+.inNav {
+    background-color: rgba(30, 40, 200, 0.5);
+    text-align: center;
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 100%;
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 25px;
+    display: inline-block;
+    margin: 2%;
+    padding: 2%;
+    position: relative;
+}
+
+.inNav a {
+    color: whitesmoke;
+}
+
+.centerTeam{
+    position:relative;
+    width: 60%;
+    height: 20%;
+    left:50%;
+    transform: translate(-50%);
+    background-color: rgba(30, 40, 200, 0.5);
+    display: inline-block;
+    margin: 1%;
+    padding 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 25%;
+}
+
+.bgUP{
+    background-image: url(../assets/images/Upcoming/UpBG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 140px;
+    background-color: #003d65;
+    height: 2048px;
 }
