@@ -102,7 +102,7 @@ video {
 .textBlock1{
     color: whitesmoke;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 21px;    
 }
 
@@ -124,11 +124,12 @@ video {
     left:50%;
     transform: translate(-50%);
     padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .title h1{
     width: 100%;
-    font-family: monospace;
+    font-family: 'Bungee', cursive;
     font-size: 70px;
     text-shadow: 
         0px 4px 3px rgba(0,0,0,0.4),
@@ -420,8 +421,8 @@ video {
 
 .teamMember {
     border-radius: 500%;
-    height: 10%;
-    width: 10%;
+    height: 15%;
+    width: 15%;
 }
 
 .bgTeam{
@@ -440,13 +441,13 @@ video {
 }
 
 .inNav {
-    background-color: rgba(30, 40, 200, 0.5);
+    background-color: rgba(0, 0, 255, 0.5);
     text-align: center;
     width: 30%;
     left: 50%;
     transform: translate(-50%);
     border-radius: 100%;
-    font-family: monospace;
+    font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
     font-size: 25px;
     display: inline-block;
@@ -468,10 +469,8 @@ video {
     background-color: rgba(30, 40, 200, 0.5);
     display: inline-block;
     margin: 1%;
-    padding 2%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    border-radius: 25%;
+    padding: 2%;
+    border-radius: 10%;
 }
 
 .bgUP{
