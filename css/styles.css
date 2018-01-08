@@ -384,12 +384,20 @@ video {
 /*-----------More Info-----------*/
 
 .bgInfo{
-    background-image: url(../assets/images/bg1.jpg);
+    background-image: url(../assets/images/info/infoBg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     margin-bottom: 140px;
     background-color: #003d65;
+    z-index: -500;
+    height: 5000px;
+}
+
+.bgStarsFar img{
+    position: absolute;
+    min-width: 100%;
+    height: 100%;
 }
 
 .infoTitle{
@@ -423,7 +431,16 @@ video {
     margin-top: 2%
 }
 
+#contentLayer{
+    position: absolute;
+}
 
+#prlx_lyr_1{
+    position: fixed;
+    background: url(../assets/images/info/starsBgFar.png) no-repeat 0px 200px;
+    width: 100%;
+    height: 800px;
+}
 /*-----------footer-----------*/
 
 #footer{
@@ -461,6 +478,7 @@ video {
     font-family: 'Bungee', cursive;
     font-size: 2.4em;    
 }
+
 /*Phone Screens*/
 @media only screen and (max-width: 650px) {
     
