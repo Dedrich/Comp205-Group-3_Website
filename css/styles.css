@@ -190,6 +190,8 @@ video {
     font-size: 25px;
 }
 
+/*-----------About Page-----------*/
+
 .aboutText{
     font-family: 'Open Sans', sans-serif;
     text-align: left;
@@ -377,6 +379,50 @@ video {
     color: white;
     font-size: 2.5em;
 }
+
+/*-----------More Info-----------*/
+
+.bgInfo{
+    background-image: url(../assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 140px;
+    background-color: #003d65;
+}
+
+.infoTitle{
+    position: relative;
+    width: 80%;
+    height: 8%;
+    left:50%;
+    transform: translate(-50%);
+    font-family: 'Bungee', cursive;
+    padding-top: 3%;
+}
+
+.infoTitle h1{
+    font-size: 3em;
+    width: 100%;
+    border-bottom: solid 3px;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.infoMarginT1{
+    padding-top: 15%;
+}
+
+.infoTitleImg img{
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translate(-46%);
+    margin-top: 2%
+}
+
+
 /*-----------footer-----------*/
 
 #footer{
