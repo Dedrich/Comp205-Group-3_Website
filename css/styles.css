@@ -487,8 +487,9 @@ video {
 /* Various CSS for team and upcoming*/
 .teamMember {
     border-radius: 500%;
-    height: 15%;
-    width: 15%;
+    height: 5%;
+    width: 5%;
+    display: inline-block;
 }
 
 .bgTeam{
@@ -534,9 +535,10 @@ video {
     transform: translate(-50%);
     background-color: rgba(30, 40, 200, 0.5);
     display: inline-block;
-    margin: 0%;
+    margin: 2%;
     border-radius: 10%;
     overflow: hidden;
+    padding: 2%;
 }
 
 .teamcardShow
@@ -645,4 +647,8 @@ video {
 
 #F9-30W-6 {
     padding-bottom: 5%;
+}
+
+.centerUP a {
+    color: whitesmoke;
 }
