@@ -104,6 +104,7 @@ video {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 21px;    
+    padding: 2%;
 }
 
 
@@ -465,6 +466,7 @@ video {
     
 }
 
+/* Various CSS for team and upcoming*/
 .teamMember {
     border-radius: 500%;
     height: 15%;
@@ -487,7 +489,7 @@ video {
 }
 
 .inNav {
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(30, 40, 200, 0.5);
     text-align: center;
     width: 30%;
     left: 50%;
@@ -527,4 +529,86 @@ video {
     margin-bottom: 140px;
     background-color: #003d65;
     height: 2048px;
+}
+
+.NavUP
+{
+    position: relative;;
+    width: 60%;
+    height 20%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(30, 40, 200, 0.5);
+    display: inline-block;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 10%;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.NavUP a {
+    color: whitesmoke;
+}
+
+.NavUP table {
+    text-align: left;
+    
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.NavUP th {
+    border-bottom: 2px solid black;
+}
+
+.NavUP td {
+    border-bottom: 2px solid black;
+}
+
+.NavUP tr:hover {
+    background-color: blue;
+}
+
+.titleUP {
+    position: relative;
+    width: 60%;
+    height: 10%;
+    left:50%;
+    transform: translate(-50%);
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+
+.titleUP h1{
+    width: 100%;
+    font-family: 'Bungee', cursive;
+    font-size: 70px;
+    text-shadow: 
+        0px 4px 3px rgba(0,0,0,0.4),
+        0px 8px 13px rgba(0,0,0,0.1),
+        0px 18px 23px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.centerUP{
+    position:relative;
+    width: 60%;
+    height: 20%;
+    left:50%;
+    transform: translate(-50%);
+    background-color: rgba(30, 40, 200, 0.5);
+    display: inline-block;
+    margin: 1%;
+    padding 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 25%;
+}
+
+#F9-30W-6 {
+    padding-bottom: 5%;
 }
