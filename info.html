@@ -11,6 +11,7 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
         <script src="js/menuScript.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/parallax.js"></script>
         <title>More Information</title>
     </head>
 
@@ -37,16 +38,82 @@
         </div>
     <!--End of Sidebar Menu-->
         
-        
-        
-        <div id="prlx_lyr_1"></div>
-        <div id="contentLayer">
-            <div class="infoTitleImg">
-                <img src="assets/images/logoBig.png">
+        <div class="infoContainer">
+            <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/info/infoBg.jpg">
+                <img class="parallaxContentLogo" src="assets/images/logoBig.png">
             </div>
-            <div class="infoTitle infoMarginT1">
-                <h1>More Information</h1>
+            <h1 class="infoTitle">More Information</h1>
+            <div class="pageNavInfo">
+                <h1>Jump to</h1>
+                <nav>
+                    <a href="#infoSec1">OTHER SITES</a>
+                    <a href="#infoSec2">| CONTACT</a>
+                    <a href="#infoSec3">| NEWSLETTER</a>
+                </nav>
+            </div>
+            <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/info/marsBg.jpg">
+            </div>
+            
+            <div id="infoSec1">
+                <h1 class="infoTitle">Other Sites</h1>
+                <p class="infoText">
+                    Here you can find more informational website for SpaceX!
+                </p>
+                <div class="infoList">
+                    <a href="https://www.reddit.com/r/spacex/">
+                        Reddit<br>
+                        <img src="assets/images/info/LinkLogoReddit.png">   
+                    </a>
+                    <a href="http://www.spacex.com/">
+                        SpaceX Offical<br>
+                        <img src="assets/images/info/LinkLogoSpaceX.png">   
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/SpaceX">
+                        Wiki<br>
+                        <img src="assets/images/info/LinkLogoWiki.png">   
+                    </a>
+                </div>
+            </div>
+            <div id="infoSec2">
+                <h1 class="infoTitle">Contact</h1>
+                <div class="infoContactCardContainer">
+                    <div class="infoContactCard">
+                        <img src="assets/images/info/contactDerek.png">
+                        <h1>Derek Bancroft</h1>
+                        <h2>DRAGON 2 PROPULSION ENGINEER</h2>
+                        <ul>
+                            <li>(403)445-2651</li>
+                            <li>D.Bancroft@SpaceX.com</li>
+                        </ul>
+                    </div>
+                    <div class="infoContactCard">
+                        <img src="assets/images/info/contactMatt.png">
+                        <h1>Matthew Shea</h1>
+                        <h2>LAUNCH TECHNICIAN</h2>
+                        <ul>
+                            <li>(613)783-4737</li>
+                            <li>M.Shea@SpaceX.com</li>
+                        </ul>
+                    </div>
+                    <div class="infoContactCard">
+                        <img src="assets/images/info/contactSimar.png">
+                        <h1>Simar Kaur</h1>
+                        <h2>SOFTWARE ENGINEER</h2>
+                        <ul>
+                            <li>(902)327-2531</li>
+                            <li>S.Kaur@SpaceX.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="infoMarginTop"></div>
+            <div id="infoSec3">
+                <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/info/dragonBg.jpg">
+                </div>
+                <h1 class="infoTitle">Newsletter</h1>
             </div>
         </div>
+    
+        
     </body>
 </html>

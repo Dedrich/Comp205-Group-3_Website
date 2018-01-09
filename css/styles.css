@@ -351,7 +351,7 @@ video {
 .pageNav{
     text-align: center;
     position:relative;
-    width: 20%;
+    width: 24%;
     height: auto;
     left:50%;
     transform: translate(-50%);
@@ -384,30 +384,29 @@ video {
 /*-----------More Info-----------*/
 
 .bgInfo{
-    background-image: url(../assets/images/info/infoBg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin-bottom: 140px;
-    background-color: #003d65;
-    z-index: -500;
-    height: 5000px;
+    background-color: #000;
 }
 
-.bgStarsFar img{
-    position: absolute;
-    min-width: 100%;
-    height: 100%;
+.infoContainer{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #001421;
+    font-size: 24px;
+    padding: 25px;
 }
 
 .infoTitle{
     position: relative;
-    width: 80%;
-    height: 8%;
-    left:50%;
-    transform: translate(-50%);
     font-family: 'Bungee', cursive;
-    padding-top: 3%;
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: solid 3px;
+    line-height: 100%;
+    color: white;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2%;
 }
 
 .infoTitle h1{
@@ -419,8 +418,8 @@ video {
     text-align: center;
 }
 
-.infoMarginT1{
-    padding-top: 15%;
+.infoMarginTop{
+    padding-top: 4%;
 }
 
 .infoTitleImg img{
@@ -431,15 +430,149 @@ video {
     margin-top: 2%
 }
 
-#contentLayer{
-    position: absolute;
+.parallax{
+    background: transparent;
+    padding: 5%;
+    height: 30vmin;
+    max-height: 30vmin;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-#prlx_lyr_1{
-    position: fixed;
-    background: url(../assets/images/info/starsBgFar.png) no-repeat 0px 200px;
+.parallaxContentLogo{
+    z-index: 2;
+    position: relative;
     width: 100%;
-    height: 800px;
+    transform: translate(4%)
+}
+
+.pageNavInfo{
+    text-align: center;
+    position:relative;
+    width: 50%;
+    height: auto;
+    left:50%;
+    transform: translate(-50%);
+    display: block;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 1%;
+    margin-top: 4%;
+}
+
+.pageNavInfo a{
+    width: 50%;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    transition: all 0.3s ease-in-out;
+    font-size: 1em;
+}
+
+.pageNavInfo nav a:hover{
+    transition: all 0.3s ease-in-out;
+    text-shadow: 4px 4px 4px #000;
+    color: royalblue;
+}
+
+.pageNavInfo h1{
+    font-family: 'Bungee', cursive;
+    color: white;
+    font-size: 1.5em;
+}
+
+.infoText{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+#infoSec1 #infoSec2 #infoSec3{
+    margin-top: 4%
+}
+
+.infoList{
+    text-align: center;
+    display:flex;
+    margin-top: 5%;
+}
+
+.infoList img{
+    width: 45%;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.infoList img:hover{
+    transition: all 0.3s ease-in-out;
+     transform: scale(1.3);
+}
+
+.infoList a{
+    color: white;
+    font-family: 'Bungee', cursive;
+    font-size: 1em;
+}
+
+.infoContactCardContainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.infoContactCard{
+    position: relative;
+    width: 25%;
+    height: auto;
+    background-image: url(../assets/images/info/infoBg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    padding: 3%;
+    margin: 3% 1% 0%;
+    border-radius: 7%
+}
+
+.infoContactCard ul{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.infoContactCard h1{
+    color: white;
+    font-family: 'Bungee', cursive;
+    font-size: 4vmin;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 3%;
+}
+
+.infoContactCard h2{
+    color: white;
+    font-family: 'Bungee', cursive;
+    font-size: 2vmin;
+    text-align: center;
+    border-bottom: solid 3px;
+    line-height: 140%;
+    margin-bottom: 2%;
+}
+
+.infoContactCard ul{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4vmin;
+    text-align: center;
+}
+
+.infoContactCard img{
+    position: relative;
+    width: 90%;
+    top: 0%;   
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%);
 }
 /*-----------footer-----------*/
 
