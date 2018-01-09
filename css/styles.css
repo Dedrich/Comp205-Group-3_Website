@@ -381,16 +381,24 @@ video {
     font-size: 2.5em;
 }
 
+.fa-arrow-alt-circle-up{
+    font-size: 25vmin;
+}
+
 /*-----------More Info-----------*/
 
 .bgInfo{
     background-color: #000;
+    background-image: url(../assets/images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .infoContainer{
     width: 80%;
     margin: 0 auto;
-    background-color: #001421;
+    background-color: rgba(0, 20, 33, 0.8);
     font-size: 24px;
     padding: 25px;
 }
@@ -407,6 +415,17 @@ video {
     left: 50%;
     transform: translate(-50%);
     margin-top: 2%;
+}
+
+.infoTop{
+    position: relative;
+    font-family: 'Bungee', cursive;
+    margin: 0 auto;
+    font-size: 2.5em;
+    border-bottom: solid 3px;
+    line-height: 100%;
+    color: white;
+    width: 50%;
 }
 
 .infoTitle h1{
@@ -574,10 +593,103 @@ video {
     left: 50%;
     transform: translate(-50%);
 }
+
+.infoForm{
+    position: relative;
+    margin-top: 5%;
+    padding: 5%;
+    width: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 5%;
+    display: inline-block;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 8%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4vmin;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+input[type=text]:focus {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 5%;
+    display: inline-block;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4vmin;
+    border:none;
+}
+
+input[type=email]:focus {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+label{
+    color: white;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 2.5vmin;
+    line-height: 100%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #004675;
+    color: white;
+    padding: 5%;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Bungee', cursive;
+    margin-top: 5%;
+    font-size: 2.5vmin;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=submit]:hover {
+    background-color: #FFF;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4vmin;
+}
+
 /*-----------footer-----------*/
 
 #footer{
     position: absolute;
+    right: 0;
+}
+
+#footerInfo{
+    position: relative;
+    float: right;
+    bottom: 0;
+}
+
+#footerIndex{
+    position: absolute;
+    bottom: 0;
     right: 0;
 }
 
