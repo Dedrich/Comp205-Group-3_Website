@@ -407,7 +407,6 @@ video {
     position: relative;
     font-family: 'Bungee', cursive;
     text-align: center;
-    font-size: 2.5em;
     border-bottom: solid 3px;
     line-height: 100%;
     color: white;
@@ -426,15 +425,6 @@ video {
     line-height: 100%;
     color: white;
     width: 50%;
-}
-
-.infoTitle h1{
-    font-size: 3em;
-    width: 100%;
-    border-bottom: solid 3px;
-    line-height: 100%;
-    color: white;
-    text-align: center;
 }
 
 .infoMarginTop{
@@ -672,6 +662,17 @@ input[type=submit]:hover {
 textarea{
     font-family: 'Open Sans', sans-serif;
     font-size: 2.4vmin;
+}
+
+.infoContactList li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vmin;
+}
+
+@media only screen and (max-width: 1070px) {
+    .infoContactList li{
+        font-size: 1.5vmin;
+    }
 }
 
 /*-----------footer-----------*/
