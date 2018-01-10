@@ -670,6 +670,10 @@ textarea{
     font-size: 3vmin;
 }
 
+textarea:focus, input:focus{
+    outline: none;
+}
+
 @media only screen and (max-width: 1070px) {
     .infoContactList li{
         font-size: 1.5vmin;
