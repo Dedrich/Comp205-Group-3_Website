@@ -1,3 +1,6 @@
+.mySlides {
+    display:none;
+}
 .bgimage {
     background-image:url("../pics/62826018-stars-wallpapers.jpg");
     background-size:100%;
@@ -5,6 +8,7 @@
 }
 .center3
 {
+    margin-top: 400px;
     text-align: center;
     color:white;
     font-size: 40px;
@@ -21,11 +25,11 @@
 }
 .text
 {
-    margin-top:100px;
+    margin-top:200px;
     color:white;
     font-size:30px;
     text-align: center;
-    LINE-HEIGHT:40px;
+    LINE-HEIGHT:60px;
     display: inline-block;
     width:49%;
     position:relative;
@@ -41,12 +45,12 @@
     
 }
 .text1{
-    margin-top:100px;
+    margin-top:200px;
     color:white;
     font-size:30px;
     text-align: center;
     margin-left: 20px;
-    LINE-HEIGHT:40px;
+    LINE-HEIGHT:60px;
     position:absolute;
     display: inline-block;
     width:49%;
@@ -72,4 +76,54 @@
     font-size: 40px;
     font-style: italic;
     text-align: center;
+}
+.tabletext a {
+    color: whitesmoke;
+}
+
+.tabletext table {
+    
+    height: 500px;
+    border: 2px solid white;
+    width:100%;
+    
+    
+}
+
+.tabletext th {
+    border-bottom: 2px solid white;
+    font-size: 50px;
+    
+    
+}
+
+.tabletext td {
+    border-bottom: 2px solid white;
+    font-size:40px;
+}
+
+.tabletext
+{
+    margin-top:200px;
+    background-color:rgba(147,112,219,0.3);
+    
+    color:white;
+    display: inline-block;
+}
+.tabletext tr:hover {
+    background-color: slategrey;
+}
+.premenu a
+{
+    color: white;
+    font-size: 30px;
+    
+}
+.premenu
+{
+    line-height: 60px;
+   margin-top:200px;
+    background-color:rgba(147,112,219,0.3);
+    width:400px;
+    
 }
