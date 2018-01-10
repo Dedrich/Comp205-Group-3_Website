@@ -24,7 +24,7 @@
 
             <div class="menuImg">
                 <a href="index.html">
-                    <img src="assets/images/logoSmall.png">
+                    <img src="assets/images/LinkLogoSpaceXHome.png">
                 </a>
             </div>
             <ul class="navSmall">
@@ -38,7 +38,7 @@
         </div>
     <!--End of Sidebar Menu-->
         
-        <div class="infoContainer">
+        <div class="infoContainer" id="top">
             <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/info/infoBg.jpg">
                 <img class="parallaxContentLogo" src="assets/images/logoBig.png">
             </div>
@@ -81,7 +81,7 @@
                         <img src="assets/images/info/contactDerek.png">
                         <h1>Derek Bancroft</h1>
                         <h2>DRAGON 2 PROPULSION ENGINEER</h2>
-                        <ul>
+                        <ul class="infoContactList">
                             <li>(403)445-2651</li>
                             <li>D.Bancroft@SpaceX.com</li>
                         </ul>
@@ -90,7 +90,7 @@
                         <img src="assets/images/info/contactMatt.png">
                         <h1>Matthew Shea</h1>
                         <h2>LAUNCH TECHNICIAN</h2>
-                        <ul>
+                        <ul class="infoContactList">
                             <li>(613)783-4737</li>
                             <li>M.Shea@SpaceX.com</li>
                         </ul>
@@ -99,7 +99,7 @@
                         <img src="assets/images/info/contactSimar.png">
                         <h1>Simar Kaur</h1>
                         <h2>SOFTWARE ENGINEER</h2>
-                        <ul>
+                        <ul class="infoContactList">
                             <li>(902)327-2531</li>
                             <li>S.Kaur@SpaceX.com</li>
                         </ul>
@@ -107,13 +107,52 @@
                 </div>
             </div>
             <div class="infoMarginTop"></div>
-            <div id="infoSec3">
-                <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/info/dragonBg.jpg">
-                </div>
-                <h1 class="infoTitle">Newsletter</h1>
+            <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/info/dragonBg.jpg">
             </div>
+            <div class="infoMarginTop"></div>
+            <div id="infoSec3">
+                <h1 class="infoTitle">Newsletter</h1>
+                <p class="infoText">
+                    Sign up for the weekly SpaceX newsletter<br>Stay up to date with all the latest SpaceX news!
+                </p>
+                <div class="infoForm">
+                    <form action="https://formspree.io/derek.bancroft@student.sl.on.ca" method="POST">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="ex. Elon">
+                        
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="ex. Musk">
+                        
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="_replyto" placeholder="ex. ElonMusk@SpaceX.com">
+                                    
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+                <div class="pageNavInfo">
+                    <nav>
+                        <a href="#top">
+                        <i class="fas fa-arrow-alt-circle-up"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            
         </div>
-    
-        
+            <footer id="footerInfo">
+                <div class="footerLinks">
+                    <a href="https://www.facebook.com/SpaceX/">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+
+                    <a href="https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </footer>
     </body>
 </html>
