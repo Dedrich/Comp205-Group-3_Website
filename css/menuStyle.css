@@ -25,8 +25,7 @@
     background-color: rgba(17,17,17,0.9);
     opacity: 0.9;
     transition: all 0.3s ease-in-out;
-        z-index: 1000000000000;
-
+    z-index: 1000000000000;
 }
 
 .fa-times{
@@ -71,9 +70,11 @@
 }
 
 .menuImg img{
-    width: 150%;
-    margin-top: 10%;
+    width: 70%;
     opacity: .5;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     transition: all 0.5s ease-in-out;
 }
 
@@ -105,8 +106,19 @@ a:active, a:focus {
   -moz-outline-style: none
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1600px){
     .toggle_menu{
         font-size: 20px;
+    }
+    .menuImg img{
+        width: 70%;
+    }
+    .navSmall a{
+        font-size: .7em;
+        margin: 14% 0px;
+        line-height: 100%;
+    }
+    .sidebar_menu{
+        width: 200px;    
     }
 }
