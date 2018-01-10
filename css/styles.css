@@ -729,11 +729,11 @@ textarea{
 /* Various CSS for team and upcoming*/
 .teamMember {
     border-radius: 500%;
-    height: 5%;
-    width: 5%;
+    height: 15%;
+    width: 15%;
     display: inline-block;
 }
-
+/*
 .teamMember img {
     border-radius: 500%;
     height: 5%;
@@ -741,7 +741,7 @@ textarea{
     display: inline-block;
     position: relative;
 }
-
+*/
 .bgTeam{
     background-image: url(../assets/images/Team/SpaceXTeamBG.jpg);
     background-repeat: no-repeat;
@@ -763,7 +763,7 @@ textarea{
     width: 30%;
     left: 50%;
     transform: translate(-50%);
-    border-radius: 100%;
+    border-radius: 600px;
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
     font-size: 25px;
@@ -786,7 +786,7 @@ textarea{
     background-color: rgba(30, 40, 200, 0.5);
     display: inline-block;
     margin: 2%;
-    border-radius: 10%;
+    border-radius: 150px;
     overflow: hidden;
     padding: 2%;
 }
