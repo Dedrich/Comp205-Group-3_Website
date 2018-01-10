@@ -106,8 +106,19 @@ a:active, a:focus {
   -moz-outline-style: none
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1600px){
     .toggle_menu{
         font-size: 20px;
+    }
+    .menuImg img{
+        width: 70%;
+    }
+    .navSmall a{
+        font-size: .7em;
+        margin: 14% 0px;
+        line-height: 100%;
+    }
+    .sidebar_menu{
+        width: 200px;    
     }
 }
