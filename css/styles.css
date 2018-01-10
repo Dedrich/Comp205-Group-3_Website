@@ -271,7 +271,7 @@ video {
     display: inline-block;
     padding: 3%;
     border: solid 3px;
-    border-radius: 5%;
+    border-radius: 55px;
     border-color: rgba(0, 0, 0, 0);
     line-height: 1.5;
 }
@@ -401,6 +401,7 @@ video {
     background-color: rgba(0, 20, 33, 0.8);
     font-size: 24px;
     padding: 25px;
+    border-radius: 55px;
 }
 
 .infoTitle{
