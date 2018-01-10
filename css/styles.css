@@ -492,6 +492,14 @@ video {
     display: inline-block;
 }
 
+.teamMember img {
+    border-radius: 500%;
+    height: 5%;
+    width: 5%;
+    display: inline-block;
+    position: relative;
+}
+
 .bgTeam{
     background-image: url(../assets/images/Team/SpaceXTeamBG.jpg);
     background-repeat: no-repeat;
@@ -628,6 +636,7 @@ video {
         0px 8px 13px rgba(0,0,0,0.1),
         0px 18px 23px rgba(0,0,0,0.1);
     text-align: center;
+    color: whitesmoke;
 }
 
 .centerUP{
