@@ -144,3 +144,46 @@
     color:white;
     font-size:30px;
 }
+#footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#footerIndex{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fa-facebook-square{
+    font-size: 4em; 
+}
+
+.fa-twitter-square{
+    font-size: 4em;
+}
+
+.fa-youtube{
+    font-size: 4em;
+    
+}
+
+.footerLinks{
+    margin-top: 1.5%;   
+}
+
+.footerLinks a{
+    color: white;
+}
+
+.footerLinks a:hover{
+    transition: all 0.3s ease-in-out;
+    color: blue;
+}
+
+.footerTitle h2{
+    font-family: 'Bungee', cursive;
+    font-size: 2.4em;    
+}
