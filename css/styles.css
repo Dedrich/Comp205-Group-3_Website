@@ -678,14 +678,10 @@ textarea{
 /*-----------footer-----------*/
 
 #footer{
-    position: absolute;
-    right: 0;
-}
-
-#footerInfo{
-    position: relative;
-    float: right;
-    bottom: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2%;
 }
 
 #footerIndex{
