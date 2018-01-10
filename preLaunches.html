@@ -43,6 +43,7 @@
      <div> 
     <h1 class="heading1">Previous Launches</h1><br><br>
          <!--Menu-->
+         <section id="main">
          <center>
         <div class="premenu">
             <a href="preLaunches.html#Slideshow">Falcon 9 Sattelite</a><br>
@@ -51,13 +52,14 @@
             <a href="preLaunches.html#Moreinfo">More Information</a><br>
         </div>
         </center>
+             </section>
          <!--End of Menu-->
     </div>
         <!--Slideshow-->
 <section id="Slideshow">
              <h2 class="center3">Falcon 9 Sattelites</h2>
           <br><br>
-    <div>
+    <div class="Slide">
       
     <center> <img class="mySlides" src="pics/canaveral.jpg" alt="image" height="470" width="1000">
       <img class="mySlides" src="pics/crs5_launch_causeway1_0.jpg" alt="image" height="470" width="1000">
@@ -65,6 +67,7 @@
       <img class="mySlides" src="pics/spacex-falcon-launch.jpg"  alt="image" height="470" width="1000">
       <img class="mySlides" src="pics/1200px-Launch_of_Falcon_9_carrying_ABS-EUTELSAT_(16510243060).jpg"  alt="image" height="470" width="1000">
       <img class="mySlides" src="pics/spacex-falcon-9.jpg"  alt="image" height="470" width="1000">
+      <br><br>  <a href="preLaunches.html#main">Back to Top</a>
    </center><br><br><br>
    </div>
 </section>
@@ -75,13 +78,17 @@
        <center>
         <h2 class="text3">Story of Falcon 9</h2>
         <video width="800" height="540" controls>
-        <source src="video/The%20Story%20of%20SpaceXs%20Falcon%209%20Rocket.mp4" type="video/mp4"></video>
+        <source src="video/The%20Story%20of%20SpaceXs%20Falcon%209%20Rocket.mp4" type="video/mp4"></video><br><br>
+           
+            <a href="preLaunches.html#main">Back to Top</a>
        </center>
+        
     </div>
 </section>
         <!--End of video-->
         <!--Table-->
 <section id="table">
+    <div class="top">
     <center>
         <div class="tabletext">
         <table>
@@ -103,20 +110,40 @@
                 </tr>
         </table>
         </div>
+        <br><br>
+        <a href="preLaunches.html#main">Back to Top</a>
     </center>
+        </div>
 </section>
         <!--End of table-->
 <section id="Moreinfo">
     <div class="text">
+        <center>
     <div class="background">
     <h2> More Information</h2>
     </div>
+            </center><br><br>
       <p>
             Falcon 9 Flight 20 historic first-stage landing at CCAFS Landing Zone 1, December 22, 2015: Falcon 9 flight 20
         On December 22, 2015, SpaceX launched the highly anticipated return-to-flight mission after the loss of CRS-7, inaugurating a new Falcon 9 Full Thrust version of its flagship rocket featuring increased performance, notably thanks to subcooling of the propellants. This first mission of the upgraded vehicle launched a constellation of 11 Orbcomm-OG2 second-generation satellites. Performing a controlled-descent and landing test for the eighth time, SpaceX managed to return the first stage successfully to the Landing Zone 1 at Cape Canaveral, marking the first successful recovery of a rocket first stage that launched a payload to orbit. An essentially new launch vehicle, much larger and with greater thrust than Falcon 9 v1.0—on September 29, 2013, a demonstration launch. Although the rocket carried CASSIOPE as a primary payload, CASSIOPE had a payload mass that is very small relative to the rocket's capability, and it did so at a discounted rate—approximately 20% of the normal published price for SpaceX Falcon 9 LEO missions—because the flight was a technology demonstration mission for SpaceX. After the second stage separated from the booster stage, SpaceX conducted a novel high-altitude, high-velocity flight test, wherein the booster attempted to reenter the lower atmosphere in a controlled manner and decelerate to a simulated over-water landing. The test was successful, but the booster stage was not recovered.
         </p>
     </div>
 </section>
+        <footer id="footer">
+            <div class="footerLinks">
+                <a href="https://www.facebook.com/SpaceX/">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+
+                <a href="https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </footer>
         <!--javascript-->
 <script>
 var myIndex = 0;
@@ -131,7 +158,7 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 3 seconds
+    setTimeout(carousel, 3000); // Change image every 3 seconds
 }
 </script>
     </body>

@@ -8,13 +8,15 @@
 }
 .center3
 {
-    margin-top: 400px;
+    margin-top: 500px;
     text-align: center;
     color:white;
     font-size: 40px;
 }
 .background
 {
+    background-color:rgba(147,112,219,0.3);
+    width:400px;
     font-family:cursive;
     font-weight:bold;
 }
@@ -67,8 +69,13 @@
 }
 .video1
 {
-    margin-top:150px;
+    margin-top:250px;
  
+}
+.video1 a
+{
+    color:white;
+    font-size:30px;
 }
 .text3
 {
@@ -91,22 +98,21 @@
 }
 
 .tabletext th {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
     font-size: 50px;
     
     
 }
 
 .tabletext td {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
     font-size:40px;
 }
 
 .tabletext
 {
-    margin-top:200px;
+    margin-top:210px;
     background-color:rgba(147,112,219,0.3);
-    
     color:white;
     display: inline-block;
 }
@@ -121,9 +127,63 @@
 }
 .premenu
 {
+    padding:50px 0px;
     line-height: 60px;
-   margin-top:200px;
+    margin-top:250px;
     background-color:rgba(147,112,219,0.3);
     width:400px;
     
+}
+.Slide a
+{
+    color:white;
+    font-size:30px;
+}
+.top a
+{
+    color:white;
+    font-size:30px;
+}
+#footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#footerIndex{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fa-facebook-square{
+    font-size: 4em; 
+}
+
+.fa-twitter-square{
+    font-size: 4em;
+}
+
+.fa-youtube{
+    font-size: 4em;
+    
+}
+
+.footerLinks{
+    margin-top: 1.5%;   
+}
+
+.footerLinks a{
+    color: white;
+}
+
+.footerLinks a:hover{
+    transition: all 0.3s ease-in-out;
+    color: blue;
+}
+
+.footerTitle h2{
+    font-family: 'Bungee', cursive;
+    font-size: 2.4em;    
 }

@@ -29,7 +29,7 @@ div.desc {
     padding:30px 10px;
     color:black;
     text-align: center;
-    margin-top:800px;
+    margin-top:500px;
     font-weight:bold;
     font-style:italic;
     font-size: 30px;
@@ -43,12 +43,18 @@ div.desc {
 }
 .marsbackground
 {
+    margin-top:100px;
     width:1000px;
     background-color:lightsteelblue;
 }
 .videobackground
 {
     background-color:black;
+}
+.videobackground a
+{
+    color:white;
+    font-size:20px;
 }
 .marstext1
 {
@@ -58,6 +64,11 @@ div.desc {
     font-weight:bold;
    
     font-size: 30px;
+}
+.marstext1 a
+{
+    color:black;
+    font-size:20px;
 }
 .marsheading1
 {
@@ -82,11 +93,7 @@ div.desc {
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-
-  
-    position:relative;
-    
-    
+position:relative;
 }
 
 .column img {
@@ -119,7 +126,7 @@ div.desc {
 }
 .heading1
 {
-    
+   
     color:white;
     background-color:black;
     width:500px;
@@ -134,4 +141,65 @@ div.desc {
 .padding
 {
     padding: 0px 10px 50px 10px;
+}
+#footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#footerIndex{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fa-facebook-square{
+    font-size: 4em; 
+}
+
+.fa-twitter-square{
+    font-size: 4em;
+}
+
+.fa-youtube{
+    font-size: 4em;
+    
+}
+
+.footerLinks{
+    margin-top: 1.5%;   
+}
+
+.footerLinks a{
+    color: black;
+}
+
+.footerLinks a:hover{
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.footerTitle h2{
+    font-family: 'Bungee', cursive;
+    font-size: 2.4em;    
+}
+.section1
+{
+    background-color: rgba(0,0,0,0.5);
+    width:500px;
+    margin-top:300px;
+}
+.section1 a
+{
+    color:white;
+    font-size:30px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.footerMars{
+    position: relative;
+    bottom: 0;
+    margin-top: 100%;
 }
