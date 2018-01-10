@@ -908,3 +908,7 @@ textarea:focus, input:focus{
 .centerUP a {
     color: whitesmoke;
 }
+
+.titleTeam h1 {
+    color: whitesmoke;
+}
